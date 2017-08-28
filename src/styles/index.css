@@ -1,0 +1,19 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: gray;
+}
+.card {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#playList{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.navbar-text{
+  padding: 10px;
+}
