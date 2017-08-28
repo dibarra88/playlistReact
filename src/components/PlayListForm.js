@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 export default class PlayListForm extends Component {
     constructor(props) {
         super(props)
-        console.log('constructor')
         this.state = {
             userName: '',
             songArtist: '',
@@ -38,6 +37,7 @@ export default class PlayListForm extends Component {
         }
         ).then(response => {
             console.log(response, "yay");
+            this.props.updatePlayList();
 
         }).catch(err => {
             console.log(err, "boo!");
